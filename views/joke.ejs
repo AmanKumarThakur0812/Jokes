@@ -1,0 +1,9 @@
+<%- include("partials/header.ejs") %>
+    <div class="container">
+        <p><%= setUp %></p>
+        <p><%= delivery %></p>
+        <form action="/submit" method="POST">
+            <button type="submit">New Joke</button>
+        </form>  
+    </div>
+<%- include("partials/footer.ejs") %>
